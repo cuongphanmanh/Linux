@@ -33,9 +33,8 @@ __2. Nén và giải nén__
 __3. Permission__
 | No. | Function   | Commands     |
 | :------------- | :---------- | :--------------------- |
-| 01 | thay đổi permission | __`chmod octal file`__  
-octal con số bát phân (1)(2)(3)  
-thể hiện permision (rwx == read-write-execute) |
-| 02 | giải nén file .tar | __`tar -xvf file-nen.tar`__ |
-| 03 | nén file thành file.gz | __`gzip file`__ |
-| 04 | giải nén file.gz | __`gzip -d file.gz`__ |
+| 01 | thay đổi permission | __`chmod octal file`__  octal con số bát phân (1)(2)(3) thể hiện permision (rwx == read-write-execute) |
+| 02 | rw cho owner, rx cho group/world | __`chmod 775 file`__ |
+| 03 | file rwx cho tất các các user | __`chmod 777 file`__ |
+| 04 | thiết lập cho toàn thư mục | __`chmod -R 755 directory-name/`__ |
+| 04 | đổi owner|group của file | __`chown -R owner:group file/directory`__ |
