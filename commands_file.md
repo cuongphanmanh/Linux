@@ -1,3 +1,4 @@
+__1. Thao tác trên Files__
 | No. | Function   | Commands     |
 | :------------- | :---------- | :--------------------- |
 | 01 | Liệt kê thư mục | __`li`__ |
@@ -20,3 +21,21 @@
 | 14 | hiện thị nội dung file | __`less fileabc`__ |
 | 15 | hiện thị 10 dòng đầu của file | __`head fileabc`__ |
 | 16 | hiện thị 10 dòng cuối của file | __`tail fileabc`__ |
+  
+__2. Nén và giải nén__
+| No. | Function   | Commands     |
+| :------------- | :---------- | :--------------------- |
+| 01 | nén thư mực vào .tar | __`tar -cvf /tenfilenen.tar /thu-muc-can-nen`__ |
+| 02 | giải nén file .tar | __`tar -xvf file-nen.tar`__ |
+| 03 | nén file thành file.gz | __`gzip file`__ |
+| 04 | giải nén file.gz | __`gzip -d file.gz`__ |
+  
+__3. Permission__
+| No. | Function   | Commands     |
+| :------------- | :---------- | :--------------------- |
+| 01 | thay đổi permission | __`chmod octal file`__  
+octal con số bát phân (1)(2)(3)  
+thể hiện permision (rwx == read-write-execute) |
+| 02 | giải nén file .tar | __`tar -xvf file-nen.tar`__ |
+| 03 | nén file thành file.gz | __`gzip file`__ |
+| 04 | giải nén file.gz | __`gzip -d file.gz`__ |
