@@ -38,3 +38,4 @@ __3. Permission__
 | 03 | file rwx cho tất các các user | __`chmod 777 file`__ |
 | 04 | thiết lập cho toàn thư mục | __`chmod -R 755 directory-name/`__ |
 | 05 | đổi owner\|group của file | __`chown -R owner:group file/directory`__ |
+abc
